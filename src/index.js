@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import {BrowserRouter} from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
-import MainPage from "./page/assignment/MainPage";
+import Display from "./page/assignment/Display";
 
 
 ReactDOM.render(
   <React.StrictMode>
       <BrowserRouter>
-        <MainPage/>
+        <Display/>
 
       </BrowserRouter>
   </React.StrictMode>,
