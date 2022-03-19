@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'SuncheonB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/SuncheonB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+p {
+    margin: 0px;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    font-family: SuncheonB;
+    font-size: 20px;
+    color: inherit;
+
+}
+
+a:hover {
+    font-size: 24px;
+}
