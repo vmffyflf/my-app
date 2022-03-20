@@ -6,7 +6,7 @@ import './IsegyeIdol.js'
 function MainPage() {
     return (
         <div>
-
+            
 
         </div>
 
