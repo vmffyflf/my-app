@@ -16,10 +16,10 @@ function Display() {
                 color: 'white'
             }}>
                 <div style={{display: 'flex', justifyContent: 'space-between'}}>
-                    <h1 style={{margin: '0px', padding: '8px', fontFamily: 'SuncheonB'}}>
+                    <h1 style={{margin: '0px', padding: '7px', fontFamily: 'SuncheonB'}}>
                         <Link to='src/page/assignment/MainPage.js'>wakgood</Link>
                     </h1>
-                    <p style={{margin: '0px', padding: '8px', marginTop: '4px'}}>
+                    <p style={{margin: '0px', padding: '8px', marginTop: '6px'}}>
                         <a href="https://woowakgood.com/">왁물원</a>
                     </p>
                 </div>
