@@ -12,7 +12,7 @@ function IsegyeIdol() {
                 />
             </p>
             <p>
-
+                이세계아이돌
             </p>
         </div>
 
