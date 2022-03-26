@@ -3,9 +3,17 @@ import React from 'react';
 function IsegyeIdol() {
     return (
         <div>
+            <p align={"middle"} style={{backgroundColor: "#010101"}}>
+            <iframe
+                width={'960px'} height={'540px'}
+                src={"https://www.youtube.com/embed/fgSXAKsq-Vo"}
+                frameborder={0}
+                allow={"accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"}
+                />
+            </p>
+            <p>
 
-            <p>안녕하세요</p>
-            <img style={{width: '100%', height: '100%'}} src={"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F202106%2F02%2Fyachuk%2F20210602214223643sost.jpg&f=1&nofb=1"}/>
+            </p>
         </div>
 
     )

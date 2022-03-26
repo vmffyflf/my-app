@@ -9,7 +9,7 @@ import Display from "./page/assignment/Display";
 ReactDOM.render(
   <React.StrictMode>
       <BrowserRouter>
-        <Display/>
+        <Display />
 
       </BrowserRouter>
   </React.StrictMode>,
