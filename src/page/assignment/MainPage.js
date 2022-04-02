@@ -7,7 +7,12 @@ function MainPage() {
 
     return (
         <div>
-            <div className={"wakgood"}><img src={image} style={{width: '150px', height: '200px', padding: '10px'}}/>
+            <div className={"wakgood"}><img src={image} style={{
+                width: '150px',
+                height: '200px',
+                overflow: 'hidden',
+                padding: '10px',
+            }}/>
             </div>
             <h1 style={{textAlign: 'center', margin: '0px'}}><span className={'accent'}>『우왁굳』</span></h1>
             <hr style={{
@@ -39,7 +44,6 @@ function MainPage() {
                 </p>
             </div>
         </div>
-
     )
 }
 

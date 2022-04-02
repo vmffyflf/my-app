@@ -3,19 +3,23 @@
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/SuncheonB.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
+
 p {
     margin: 0px;
     padding: 5px;
+    letter-spacing: -0.1px;
+    line-height: 24px;
 }
 
 a {
     text-decoration: none;
+}
+
+.header a {
     font-family: SuncheonB;
     font-size: 26px;
     color: inherit;
-
 }
 
 .nav a {
@@ -25,12 +29,20 @@ a {
     color: inherit;
 }
 
-a:hover {
+.nav a:hover {
     font-size: 24px;
 }
 
 .wakgood{
     text-align: center;
-    ;
+}
 
+.accent {
+    background: linear-gradient(to right, #808000,  #008d62);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.iseg a:hover {
+    text-decoration: underline;
 }
