@@ -11,7 +11,7 @@ import {Link, Routes, Route} from 'react-router-dom';
 function Display() {
     return (
         <div>
-            <header style={{
+            <header className="header" style={{
                 backgroundColor: 'black',
                 color: 'white'
             }}>
@@ -20,11 +20,11 @@ function Display() {
                         <Link to='src/page/assignment/MainPage.js'>wakgood</Link>
                     </h1>
                     <p style={{margin: '0px', padding: '8px', marginTop: '6px'}}>
-                        <a href="https://woowakgood.com/">왁물원</a>
+                        <a href="https://woowakgood.com/" style={{fontSize: '20px'}}>왁물원</a>
                     </p>
                 </div>
             </header>
-            <nav style={{backgroundColor: 'gray', fontSize: '20px'}}>
+            <nav className="nav" style={{backgroundColor: 'gray', fontSize: '20px'}}>
                 <div style={{display: 'flex', justifyContent: 'space-around'}}>
                     <div>
                         <Link to='src/page/assignment/IsegyeIdol.js'>

@@ -13,9 +13,16 @@ p {
 a {
     text-decoration: none;
     font-family: SuncheonB;
-    font-size: 20px;
+    font-size: 26px;
     color: inherit;
 
+}
+
+.nav a {
+    text-decoration: none;
+    font-family: SuncheonB;
+    font-size: 20px;
+    color: inherit;
 }
 
 a:hover {
