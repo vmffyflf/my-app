@@ -20,7 +20,7 @@ function Display() {
                         <Link to='src/page/assignment/MainPage.js'>wakgood</Link>
                     </h1>
                     <p style={{margin: '0px', padding: '8px', marginTop: '6px'}}>
-                        <a href="https://woowakgood.com/" style={{fontSize: '20px'}}>왁물원</a>
+                        <a href="https://woowakgood.com/" style={{fontSize: '20px'}} target={'_blank'}>왁물원</a>
                     </p>
                 </div>
             </header>
@@ -48,16 +48,12 @@ function Display() {
                     </div>
                 </div>
             </nav>
-
-            <footer>
-
-            </footer>
             <Routes>
                 <Route path="src/page/assignment/MainPage.js" element={<MainPage/>}/>
                 <Route path="src/page/assignment/IsegyeIdol.js" element={<IsegyeIdol/>}/>
                 <Route path="src/page/assignment/Gomem.js" element={<Gomem/>}/>
                 <Route path="src/page/assignment/Contents.js" element={<Contents/>}/>
-                <Route path="src/page/assignmentTMI.js" element={<TMI/>}/>
+                <Route path="src/page/assignment/TMI.js" element={<TMI/>}/>
             </Routes>
         </div>
     )

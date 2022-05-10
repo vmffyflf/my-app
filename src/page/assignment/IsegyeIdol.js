@@ -1,4 +1,5 @@
 import React from 'react';
+import Component from 'react'
 import ine from 'C:\\Users\\wlsgh\\my-app\\src\\page\\img\\아이네.png';
 import jing from 'C:\\Users\\wlsgh\\my-app\\src\\page\\img\\징버거.png';
 import lilpa from 'C:\\Users\\wlsgh\\my-app\\src\\page\\img\\릴파.jfif';
@@ -9,11 +10,16 @@ import vichan from 'C:\\Users\\wlsgh\\my-app\\src\\page\\img\\비챤.jfif';
 
 function IsegyeIdol() {
     return (
-        <div style={{padding: '0px'}}>
-            <p align={"middle"} style={{padding: '1', backgroundColor: '#e64371', paddingBottom: '0'}}>
-                <img style={{width: "100%"}}
-                     src={'https://yt3.ggpht.com/pqvOaDL8GZzmiD75caWvuAPNtgTTrHBJTZg2fESmElWpErM0peGslp_DJUGGyQJTTLv-IfIfwA=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj'}/>
-            </p>
+        <div style={{padding: '0px', paddingBottom: '200px'}}>
+
+            <img style={{
+                width: "100%", webkitBoxSizing: 'border-box',
+                mozBoxSizing: 'border-box',
+                boxSizing: 'border-box',
+                border: 'solid #e64371 4px'
+            }}
+                 src={'https://yt3.ggpht.com/pqvOaDL8GZzmiD75caWvuAPNtgTTrHBJTZg2fESmElWpErM0peGslp_DJUGGyQJTTLv-IfIfwA=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj'}/>
+
             <div style={{textAlign: 'center', justifyContent: 'center'}}>
                 <b style={{fontSize: '20px'}}>『둘, 셋 차원을 넘어! 안녕하세요, 이세계 아이돌입니다!』</b>
                 <p>
@@ -52,6 +58,17 @@ function IsegyeIdol() {
                         <td><a href={'https://www.youtube.com/channel/UCs6EwgxKLY9GG4QNUrP5hoQ'} style={{color: 'red'}}>유튜브</a>&nbsp;<a
                             href={'https://www.twitch.tv/viichan6'}>트위치</a></td>
                     </tr>
+                    <tr>
+                        <td colspan='6'>팬덤명</td>
+                    </tr>
+                    <tr>
+                        <td>비둘기</td>
+                        <td>똥강아지</td>
+                        <td>박쥐단</td>
+                        <td>주폭도</td>
+                        <td>세균단</td>
+                        <td>고라니</td>
+                    </tr>
 
 
                 </table>
@@ -63,10 +80,26 @@ function IsegyeIdol() {
                     시청자와 방송 출연진과의 쌍방향 소통이 이루어 졌다.
                     우왁굳은 통칭 '이세돌'을 건전하게 키우기 위해서 엄격한 활동규정을 정했다.
                     대표적으로는 '합방금지','영도금지'등이 있다.
+                    또한 이세돌은 다양한 음악장르를 시도하는것 같다.
+                    <br/><br/>
 
+
+                    현재 이세계 아이돌은 2집 앨범까지 나왔으며 3집과 4집도 제작중에 있다고 밝혀졌다.
+                    이세돌은 여러가지 장르의 노래를 커버하였으며 J-POP, K-POP, 힙합, 재즈, POP송등 다방면에서 뛰어난 실력을 보여주고있다.
+                    <br/><br/>
+                    다음은 이세계 아이돌 1집 노래와, 2집 노래이다.
 
 
                 </p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/fgSXAKsq-Vo"
+                        title="YouTube video player" frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/JY-gJkMuJ94"
+                        style={{justifyContent: "flex"}}
+                        title="YouTube video player" frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen></iframe>
             </div>
         </div>
 
