@@ -47,15 +47,20 @@ function IsegyeIdol() {
                     <tr>
                         <td><a href={'https://url.kr/s3415m'} style={{color: 'red'}}>유튜브</a>&nbsp;<a
                             href={'https://www.twitch.tv/vo_ine'}>트위치</a></td>
-                        <td><a href={'https://www.youtube.com/c/%EC%A7%95%EB%B2%84%EA%B1%B0'} style={{color: 'red'}}>유튜브</a>&nbsp;<a
+                        <td><a href={'https://www.youtube.com/c/%EC%A7%95%EB%B2%84%EA%B1%B0'}
+                               style={{color: 'red'}}>유튜브</a>&nbsp;<a
                             href={'https://www.twitch.tv/jingburger'}>트위치</a></td>
-                        <td><a href={'https://www.youtube.com/channel/UC-oCJP9t47v7-DmsnmXV38Q'} style={{color: 'red'}}>유튜브</a>&nbsp;<a
+                        <td><a href={'https://www.youtube.com/channel/UC-oCJP9t47v7-DmsnmXV38Q'}
+                               style={{color: 'red'}}>유튜브</a>&nbsp;<a
                             href={'https://www.twitch.tv/lilpaaaaaa'}>트위치</a></td>
-                        <td><a href={'https://www.youtube.com/c/%EC%A3%BC%EB%A5%B4%EB%A5%B4'} style={{color: 'red'}}>유튜브</a>&nbsp;<a
+                        <td><a href={'https://www.youtube.com/c/%EC%A3%BC%EB%A5%B4%EB%A5%B4'}
+                               style={{color: 'red'}}>유튜브</a>&nbsp;<a
                             href={'https://www.twitch.tv/cotton__123'}>트위치</a></td>
-                        <td><a href={'https://www.youtube.com/channel/UCV9WL7sW6_KjanYkUUaIDfQ'} style={{color: 'red'}}>유튜브</a>&nbsp;<a
+                        <td><a href={'https://www.youtube.com/channel/UCV9WL7sW6_KjanYkUUaIDfQ'}
+                               style={{color: 'red'}}>유튜브</a>&nbsp;<a
                             href={'https://www.twitch.tv/gosegugosegu'}>트위치</a></td>
-                        <td><a href={'https://www.youtube.com/channel/UCs6EwgxKLY9GG4QNUrP5hoQ'} style={{color: 'red'}}>유튜브</a>&nbsp;<a
+                        <td><a href={'https://www.youtube.com/channel/UCs6EwgxKLY9GG4QNUrP5hoQ'}
+                               style={{color: 'red'}}>유튜브</a>&nbsp;<a
                             href={'https://www.twitch.tv/viichan6'}>트위치</a></td>
                     </tr>
                     <tr>
