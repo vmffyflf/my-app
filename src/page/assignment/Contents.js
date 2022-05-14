@@ -1,9 +1,9 @@
 import React from 'react';
 
 function Contents() {
-    return(
+    return (
         <div>
-<p>hellpo</p>
+            <p>hello</p>
         </div>
     )
 }
