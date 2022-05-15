@@ -7,7 +7,7 @@ import {Button} from "@mui/material";
 function MainPage() {
 
     return (
-        <div>
+        <div style={{padding: '0px', marginBottom: '100px'}}>
             <div className={"wakgood"}><img src={image} style={{
                 width: '150px',
                 height: '200px',

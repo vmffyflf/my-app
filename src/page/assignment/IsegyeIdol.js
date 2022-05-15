@@ -29,12 +29,12 @@ function IsegyeIdol() {
 
                 <table border={'1'} style={{justifyContent: 'center', marginLeft: 'auto', marginRight: 'auto'}}>
                     <tr>
-                        <td>아이네</td>
-                        <td>징버거</td>
-                        <td>릴파</td>
-                        <td>주르르</td>
-                        <td>고세구</td>
-                        <td>비챤</td>
+                        <td style={{backgroundColor: '#8a2be2', color: 'white'}}>아이네</td>
+                        <td style={{backgroundColor: 'Yellow', color: 'white'}}>징버거</td>
+                        <td style={{backgroundColor: '#000080', color: 'white'}}>릴파</td>
+                        <td style={{backgroundColor: '#840058', color:'white'}}>주르르</td>
+                        <td style={{backgroundColor: 'skyblue', color:'white'}}>고세구</td>
+                        <td style={{backgroundColor: 'lightgreen', color:'white'}}>비챤</td>
                     </tr>
                     <tr>
                         <td><img src={ine} style={{width: '100px', height: '100px'}}/></td>
