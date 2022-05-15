@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 function Contents() {
+    let hrWidth = '80%';
     return (
         <div style={{paddingLeft: '24px'}}>
             <h1 style={{textAlign: 'left'}}>컨텐츠 모음</h1>
@@ -50,7 +51,7 @@ function Contents() {
                 <p style={{paddingLeft: '24px'}}></p>
             </details>
         </div>
-    )
+    );
 }
 
 

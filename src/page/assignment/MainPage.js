@@ -12,7 +12,7 @@ function MainPage() {
                 width: '150px',
                 height: '200px',
                 overflow: 'hidden',
-                padding: '10px',
+                padding: '10px'
             }}/>
             </div>
             <h1 style={{textAlign: 'center', margin: '0px'}}><span className={'accent'}>『우왁굳』</span></h1>
@@ -43,6 +43,17 @@ function MainPage() {
                         <span className={'accent'}>우왁굳TV</span> 시즌2는 현재진행형이며 성장형 퇴물로 계속 전성기를 만들어내고있다.
                     </b>
                 </p>
+                <div>
+                    <details style={{marginTop: '100px'}}>
+                        <summary style={{fontSize: '26px'}}>유튜브 재생목록</summary>
+                    <iframe style={{alignItem: 'center'}} width="560" height="315"
+                        src="https://www.youtube.com/embed/videoseries?list=PLfASGV4peeDR20eG9x1FcaFdynFu5_fgc"
+                        title="YouTube video player" frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen>
+                </iframe>
+                    </details>
+                </div>
             </div>
         </div>
     )

@@ -1,6 +1,7 @@
 import React from 'react';
 
 function TMI() {
+    const ulStyle = {lineHeight: '28px'};
     return (
         <div style={{paddingLeft: '24px'}}>
             <h1>~Too much infomation~</h1>
@@ -47,7 +48,7 @@ function TMI() {
                 <li><span style={{fontSize: '20px'}}>방송 인생에서 가장 큰 후원금액이 10,000,000원이다.</span></li>
             </ul>
         </div>
-    )
+    );
 }
 
 export default TMI;
