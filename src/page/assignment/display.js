@@ -16,15 +16,16 @@ function Display() {
                 color: 'white'
             }}>
                 <div style={{display: 'flex', justifyContent: 'space-between'}}>
-                    <h1 style={{margin: '0px', padding: '7px', fontFamily: 'SuncheonB'}}>
+                    <h1 style={{margin: '0px', padding: '6px', fontFamily: 'SuncheonB'}}>
                         <Link to='src/page/assignment/MainPage.js'>wakgood</Link>
                     </h1>
-                    <p style={{margin: '0px', padding: '8px', marginTop: '6px'}}>
-                        <a href="https://woowakgood.com/" style={{fontSize: '20px'}} target={'_blank'}>왁물원</a>
+                    <p style={{margin: '0px', padding: '9px', marginTop: '7px'}}>
+                        <a href="https://cafe.naver.com/steamindiegame.cafe" style={{fontSize: '20px'}}
+                           target={'_blank'}>왁물원</a>
                     </p>
                 </div>
             </header>
-            <nav className="nav" style={{backgroundColor: 'gray', fontSize: '20px'}}>
+            <nav className="nav" style={{backgroundColor: 'gray', fontSize: '20px', height: '34px'}}>
                 <div style={{display: 'flex', justifyContent: 'space-around'}}>
                     <div>
                         <Link to='src/page/assignment/IsegyeIdol.js'>

@@ -1,5 +1,5 @@
 import React from 'react';
-import Component from 'react'
+import './style.css';
 import ine from 'C:\\Users\\wlsgh\\my-app\\src\\page\\img\\아이네.png';
 import jing from 'C:\\Users\\wlsgh\\my-app\\src\\page\\img\\징버거.png';
 import lilpa from 'C:\\Users\\wlsgh\\my-app\\src\\page\\img\\릴파.jfif';
@@ -12,18 +12,13 @@ function IsegyeIdol() {
     return (
         <div style={{padding: '0px', paddingBottom: '200px'}}>
 
-            <img style={{
-                width: "100%", webkitBoxSizing: 'border-box',
-                mozBoxSizing: 'border-box',
-                boxSizing: 'border-box',
-                border: 'solid #e64371 4px'
-            }}
+            <img className={"mist"}
                  src={'https://yt3.ggpht.com/pqvOaDL8GZzmiD75caWvuAPNtgTTrHBJTZg2fESmElWpErM0peGslp_DJUGGyQJTTLv-IfIfwA=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj'}/>
 
             <div style={{textAlign: 'center', justifyContent: 'center'}}>
                 <b style={{fontSize: '20px'}}>『둘, 셋 차원을 넘어! 안녕하세요, 이세계 아이돌입니다!』</b>
                 <p>
-                    <b className={'iseg'}><a href={"https://www.youtube.com/c/welshcorgimessi"}
+                    <b className={'iseg'}><a href={"https://www.youtube.com/c/welshcorgimessi"} target={'_blank'}
                                              style={{color: '#e64371'}}>이세계 아이돌</a></b>은 우왁굳이 기획한 메타버스 아이돌이며 현재 2집 가수이다.
                 </p>
 
@@ -32,20 +27,21 @@ function IsegyeIdol() {
                         <td style={{backgroundColor: '#8a2be2', color: 'white'}}>아이네</td>
                         <td style={{backgroundColor: 'Yellow', color: 'white'}}>징버거</td>
                         <td style={{backgroundColor: '#000080', color: 'white'}}>릴파</td>
-                        <td style={{backgroundColor: '#840058', color:'white'}}>주르르</td>
-                        <td style={{backgroundColor: 'skyblue', color:'white'}}>고세구</td>
-                        <td style={{backgroundColor: 'lightgreen', color:'white'}}>비챤</td>
+                        <td style={{backgroundColor: '#840058', color: 'white'}}>주르르</td>
+                        <td style={{backgroundColor: 'skyblue', color: 'white'}}>고세구</td>
+                        <td style={{backgroundColor: 'lightgreen', color: 'white'}}>비챤</td>
                     </tr>
                     <tr>
-                        <td><img src={ine} style={{width: '100px', height: '100px'}}/></td>
-                        <td><img src={jing} style={{width: '100px', height: '100px'}}/></td>
-                        <td><img src={lilpa} style={{width: '100px', height: '100px'}}/></td>
-                        <td><img src={cotten} style={{width: '100px', height: '100px'}}/></td>
-                        <td><img src={gosegu} style={{width: '100px', height: '100px'}}/></td>
-                        <td><img src={vichan} style={{width: '100px', height: '100px'}}/></td>
+                        <td><img src={ine} className="imst"/></td>
+                        <td><img src={jing} className="imst"/></td>
+                        <td><img src={lilpa} className="imst"/></td>
+                        <td><img src={cotten} className="imst"/></td>
+                        <td><img src={gosegu} className="imst"/></td>
+                        <td><img src={vichan} className="imst"/></td>
                     </tr>
                     <tr>
-                        <td><a href={'https://url.kr/s3415m'} style={{color: 'red'}}>유튜브</a>&nbsp;<a
+                        <td><a href={'https://url.kr/s3415m'}
+                               style={{color: 'red'}}>유튜브</a>&nbsp;<a
                             href={'https://www.twitch.tv/vo_ine'}>트위치</a></td>
                         <td><a href={'https://www.youtube.com/c/%EC%A7%95%EB%B2%84%EA%B1%B0'}
                                style={{color: 'red'}}>유튜브</a>&nbsp;<a
@@ -78,7 +74,7 @@ function IsegyeIdol() {
 
                 </table>
                 <br/>
-                <p style={{marginLeft: '370px', marginRight: '370px', textAlign: 'left'}}>
+                <p className={"as"}>
                     이세계아이돌의 맴버는 총원 6명이고 다들 선발과정을 거쳐서 들어오게 되었다.
                     오디션 과정은 일반적인 공중파 오디션의 포멧을 일부 모방하여 진행된 1차 오디션부터 최종까지 50일이 소요 되었다.
                     사전녹화를 편집해서 올리는 공중파 오디션과는 달리 인터넷방송 특성을 살려서 모든 선발과정이 생방송으로 진행되었으며

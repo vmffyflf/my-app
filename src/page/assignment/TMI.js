@@ -19,8 +19,8 @@ function TMI() {
             </ul>
             <h2>우왁굳의 건강상태</h2>
             <p>한 마디로 매우 안좋다.</p>
-            <details>
-                <summary>건강 검진 결과</summary>
+            <details className={"no"}>
+                <summary style={{fontSize: '16px'}}>건강 검진 결과</summary>
                 <ul style={ulStyle}>
                     <li>갑상선쪽 종양</li>
                     <li>배 위쪽 종양</li>
@@ -39,7 +39,7 @@ function TMI() {
                 <li>레게노</li>
                 <li>응 없어~</li>
                 <li>정신병이야 임마!</li>
-                <li>킹아아</li>
+                <li>킹아</li>
             </ul>
             <hr/>
             <ul>

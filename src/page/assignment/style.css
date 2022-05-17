@@ -5,11 +5,20 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'KOTRAHOPE';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 p {
     margin: 0px;
     padding: 5px;
     letter-spacing: -0.1px;
     line-height: 24px;
+    font-family: 'KOTRAHOPE';
+    font-size: 18px;
 }
 
 a {
@@ -33,16 +42,156 @@ a {
     font-size: 24px;
 }
 
-.wakgood{
+.wakgood {
     text-align: center;
 }
 
 .accent {
-    background: linear-gradient(to right, #808000,  #008d62);
+    background: linear-gradient(to right, #808000, #008d62);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .iseg a:hover {
     text-decoration: underline;
+}
+
+.waks {
+    text-align: center;
+    margin: 0px;
+}
+
+.imst {
+    width: 100px;
+    height: 100px;
+}
+
+.mist {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: solid #e64371 4px;
+}
+
+hr .wak {
+    border: 1px solid #008d62;
+    background-color: #008d62;
+    border-radius: 27px;
+    height: 1px;
+    size: 70px;
+    width: 50%;
+}
+
+summary {
+    font-size: 24px;
+    font-family: 'KOTRAHOPE';
+}
+
+.wakdo {
+    width: 150px;
+    height: 200px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+div .vertical {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    text-align: justify;
+}
+
+.as {
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: left;
+
+}
+
+div .left {
+    width: 50%;
+    height: 400px;
+    float: left;
+    display: flex;
+}
+
+div .right {
+    width: 50%;
+    height: 400px;
+    float: right;
+    display: flex;
+}
+
+details {
+    width: 50%;
+    margin: 32px auto;
+    background: #282828;
+    margin-bottom: .5rem;
+    box-shadow: 0 .1rem 1rem -.5rem rgba(0, 0, 0, .4);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+summary {
+    padding: 1rem;
+    display: block;
+    background: #333;
+    padding-left: 2.2rem;
+    position: relative;
+    cursor: pointer;
+}
+
+summary:before {
+    content: '';
+    border-width: .4rem;
+    border-style: solid;
+    border-color: transparent transparent transparent #fff;
+    position: absolute;
+    top: 1.3rem;
+    left: 1rem;
+    transform: rotate(0);
+    transform-origin: .2rem 50%;
+    transition: .25s transform ease;
+}
+
+/* THE MAGIC */
+details[open] > summary:before {
+    transform: rotate(90deg);
+}
+
+
+details summary::-webkit-details-marker {
+    display: none;
+}
+
+details > ul {
+    padding-bottom: 1rem;
+    margin-bottom: 0;
+}
+
+body {
+    background: #222;
+    height: 100vh;
+    font-family: sans-serif;
+    color: white;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+a:active {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+li {
+    font-family: 'KOTRAHOPE';
+    font-size: 18px;
 }
